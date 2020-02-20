@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PavelGoshurenko_brain_games"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Pavel Goshurenko <goshurenkopl@gmail.com>"]
 packages = [
@@ -8,9 +8,9 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "^3.7"
+prompt = "^0.4.1"
 
-[tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"

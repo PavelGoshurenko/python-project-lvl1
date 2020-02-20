@@ -1,3 +1,4 @@
+pyproject.toml
 setup.py
 brain_games/__init__.py
 brain_games/__init__.pyc
@@ -6,8 +7,11 @@ brain_games/scripts/__init__.py
 brain_games/scripts/__init__.pyc
 brain_games/scripts/brain_games.py
 brain_games/scripts/brain_games.pyc
+brain_games/scripts/cli.py
+brain_games/scripts/cli.pyc
 pavelgoshurenko_brain_games.egg-info/PKG-INFO
 pavelgoshurenko_brain_games.egg-info/SOURCES.txt
 pavelgoshurenko_brain_games.egg-info/dependency_links.txt
 pavelgoshurenko_brain_games.egg-info/entry_points.txt
+pavelgoshurenko_brain_games.egg-info/requires.txt
 pavelgoshurenko_brain_games.egg-info/top_level.txt

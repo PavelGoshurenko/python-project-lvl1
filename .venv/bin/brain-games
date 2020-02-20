@@ -1,4 +1,4 @@
-#!/home/user/python-project-lvl1/.venv/bin/python
+#!/home/user/python-project-lvl1/.venv/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'pavelgoshurenko-brain-games','console_scripts','brain-games'
 __requires__ = 'pavelgoshurenko-brain-games'
 import re
