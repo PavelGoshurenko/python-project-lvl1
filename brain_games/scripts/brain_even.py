@@ -20,9 +20,10 @@ def main():
         if (answer == correct_answer):
             print('Correct!')
             number_of_correct_answers += 1
-        else: 
-            print ("'" + answer + "' is wrong answer ;(. Correct answer was '" + correct_answer + "'.")
-            print("Let's try again, " + name + "!'")
+        else:
+            print("'{}' is wrong answer ;(. ".format(answer))
+            print("Correct answer was '{}'.".format(correct_answer))
+            print("Let's try again, {}!".format(name))
             return
     print('Congratulations, ' + name + '!')
 
