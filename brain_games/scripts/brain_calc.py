@@ -2,7 +2,7 @@ from brain_games.flow import run
 
 
 def main():
-    run("even")
+    run("calc")
 
 
 if __name__ == '__main__':
