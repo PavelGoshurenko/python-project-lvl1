@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PavelGoshurenko_brain_games"
-version = "2.1.0"
+version = "2.2.0"
 description = ""
 authors = ["Pavel Goshurenko <goshurenkopl@gmail.com>"]
 packages = [
