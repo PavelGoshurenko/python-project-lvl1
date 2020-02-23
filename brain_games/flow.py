@@ -12,6 +12,9 @@ def run(game_name):
     elif (game_name == "gcd"):
         from brain_games.games.gcd import question_and_answer
         from brain_games.games.gcd import EXPLANATION
+    elif (game_name == "progression"):
+        from brain_games.games.progression import question_and_answer
+        from brain_games.games.progression import EXPLANATION
     else:
         print('We don’t have such a game yet!')
         return
@@ -21,7 +24,7 @@ def run(game_name):
     name = welcome_user()
     number_of_correct_answers = 0
     while (number_of_correct_answers < REQUIRED_CORRECT_ANSWERS):
-        [question, correct_answer] = question_and_answer()
+        (question, correct_answer) = question_and_answer()
         print('\nQuestion: ' + question)
         answer = prompt.string('Your answer: ')
         if (answer == correct_answer):

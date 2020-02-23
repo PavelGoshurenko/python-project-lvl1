@@ -20,4 +20,4 @@ def question_and_answer():
             break
         else:
             answer -= 1
-    return [question, str(answer)]
+    return (question, str(answer))

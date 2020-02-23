@@ -17,4 +17,4 @@ def question_and_answer():
     else:
         question = str(number_1) + ' * ' + str(number_2)
         answer = str(number_1 * number_2)
-    return [question, answer]
+    return (question, answer)
