@@ -15,6 +15,9 @@ def run(game_name):
     elif (game_name == "progression"):
         from brain_games.games.progression import question_and_answer
         from brain_games.games.progression import EXPLANATION
+    elif (game_name == "prime"):
+        from brain_games.games.prime import question_and_answer
+        from brain_games.games.prime import EXPLANATION
     else:
         print('We don’t have such a game yet!')
         return
