@@ -1,8 +1,15 @@
 [tool.poetry]
 name = "PavelGoshurenko_brain_games"
-version = "2.5.0"
-description = ""
+version = "2.6.0"
+description = "Set of 6 simple console games"
 authors = ["Pavel Goshurenko <goshurenkopl@gmail.com>"]
+repository = "https://github.com/PavelGoshurenko/python-project-lvl1"
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Environment :: Console",
+  "License :: Freeware",
+  "Programming Language :: Python :: 3.7"
+]
 packages = [
   { include = "brain_games" },
 ]
