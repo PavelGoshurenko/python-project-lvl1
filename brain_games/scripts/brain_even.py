@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.flow import run
+from brain_games import flow
+from brain_games.games import even
 
 
 def main():
-    run("even")
+    flow.run(even)
 
 
 if __name__ == '__main__':

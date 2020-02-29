@@ -1,7 +1,7 @@
 from random import randint
 
 
-EXPLANATION = 'Answer "yes" if number even otherwise answer "no".\n'
+EXPLANATION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def question_and_answer():

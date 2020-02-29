@@ -5,16 +5,16 @@ This project was created for training purposes. This is a set of 5 console simpl
 
 If you are interested, you can install it using the command:
 
-pip install -i https://test.pypi.org/simple/ pavelgoshurenko-brain-games
+pip install -i https://test.pypi.org/simple/ pavelgoshurenko-brain-games --extra-index-url https://pypi.org/simple
 
 
 brain-even 
 
-<a href="https://asciinema.org/a/5L0mVxidiHoWtyOl83krsR9nX" target="_blank"><img src="https://asciinema.org/a/5L0mVxidiHoWtyOl83krsR9nX.svg" /></a>
+<a href="https://asciinema.org/a/q0Rcu6rKPAg9S9p5fl4mhtj6M" target="_blank"><img src="https://asciinema.org/a/q0Rcu6rKPAg9S9p5fl4mhtj6M.svg" /></a>
 
 brain-calc
 
-<a href="https://asciinema.org/a/EjxdmEZ7lZ3ooXxv1eHHQRlzl" target="_blank"><img src="https://asciinema.org/a/EjxdmEZ7lZ3ooXxv1eHHQRlzl.svg" /></a>
+<a href="https://asciinema.org/a/cEcBw4NiUBqgHl3NHjVXuNLzu" target="_blank"><img src="https://asciinema.org/a/cEcBw4NiUBqgHl3NHjVXuNLzu.svg" /></a>
 
 brain-gcd 
 
@@ -22,7 +22,7 @@ brain-gcd
 
 brain-progression 
 
-<a href="https://asciinema.org/a/S1YWZJLRsqqOC8tRttbZrA6z7" target="_blank"><img src="https://asciinema.org/a/S1YWZJLRsqqOC8tRttbZrA6z7.svg" /></a>
+<a href="https://asciinema.org/a/ZNnGwTGDco8ldjN2nMHbuJFxM" target="_blank"><img src="https://asciinema.org/a/ZNnGwTGDco8ldjN2nMHbuJFxM.svg" /></a>
 
 brain-prime
 

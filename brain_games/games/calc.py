@@ -1,20 +1,14 @@
-from random import randint
+from random import randint, choice
+from operator import add, sub, mul
 
 
-EXPLANATION = 'What is the result of the expression?\n'
+EXPLANATION = 'What is the result of the expression?'
 
 
 def question_and_answer():
-    operator = randint(1, 3)  # 1 = + | 2 = - | 3 = *
+    operator, symbol = choice(((add, '+'), (sub, '-'), (mul, '*')))
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
-    if (operator == 1):
-        question = str(number_1) + ' + ' + str(number_2)
-        answer = str(number_1 + number_2)
-    elif (operator == 2):
-        question = str(number_1) + ' - ' + str(number_2)
-        answer = str(number_1 - number_2)
-    else:
-        question = str(number_1) + ' * ' + str(number_2)
-        answer = str(number_1 * number_2)
+    question = str(number_1) + symbol + str(number_2)
+    answer = str(operator(number_1, number_2))
     return (question, answer)
